@@ -1,0 +1,72 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    padding-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-color: #bbaac3;
+    background-image: url('https://img.freepik.com/free-photo/blur-hospital-clinic-interior_74190-5203.jpg?w=2000');
+}
+
+
+.menubar{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /**background-image: url(./web.jpg);**/
+    
+}
+    
+/**.menubar h1 {
+    margin: 0ex;
+    font-size: 24;
+    font-weight: unset;
+    padding-top: 5px;
+    color:  #010101;
+}**/
+
+
+.menubar ul.menu {
+    list-style: none;
+}
+.menubar ul.menu li {
+    float: right;
+    margin-left: 20px;
+}
+
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #c98122;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #f32222;
+    padding-bottom: 0px;
+
+}
+
+
+
+.form-login {
+    padding-top: 10rem;
+    max-height: 15rem;
+    max-width: 30rem;
+    margin: auto;
+    color: #d7c15bd9;
+}
+
+.textlogin {
+    margin: -3;
+    border: -3;
+    color: #c98122;
+}
